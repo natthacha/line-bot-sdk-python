@@ -1,1 +1,1 @@
-web: gunicorn run:examples/flask-kitchensink/app
+web: gunicorn examples/flask-kitchensink/app:examples/flask-kitchensink/app

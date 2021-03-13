@@ -28,6 +28,7 @@ from linebot.exceptions import (
 from linebot.models import (
     MessageEvent, TextMessage, TextSendMessage,
 )
+print('here')
 
 app = Flask(__name__)
 
